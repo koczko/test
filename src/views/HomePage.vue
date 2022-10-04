@@ -1,6 +1,5 @@
 <template>
   <v-container class="home">
-    <hello-world msg="Welcome to Your Vue.js + TypeScript App" />
     <teleport to="head">
       <meta
         name="keyword"
@@ -19,15 +18,11 @@ import { defineComponent, ref, watch, type Ref, type SetupContext } from 'vue';
 // import { useStore } from '@logue/vue2-helpers/vuex';
 import { useRoute } from 'vue-router/composables';
 
-import HelloWorld from '@/components/HelloWorld.vue';
 import logo from '@/assets/vuetify.svg';
 
 /** Home Component */
 export default defineComponent({
   /** Components */
-  components: {
-    HelloWorld,
-  },
   /** Props */
   props: {
     prop: { type: String, default: 'prop' },
