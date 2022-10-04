@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.0.1",
   "description": "Server",
-  "main": "dist/index.js,
+  "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build"
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^6.0.3",
-    "@vitejs/plugin-vue2": "^2.0.0,
+    "@vitejs/plugin-vue2": "^2.0.0",
     "typescript": "^4.8.4",
     "vite": "^3.1.4",
     "vue": "^2.7.10",
